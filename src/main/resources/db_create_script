@@ -1,0 +1,6 @@
+-- For Scaler Project
+create database e_cart; -- Creates the new database with name e_cart
+create user 'suman' identified by 'suman01'; -- Creates the user with username e_cart and password ecart01
+grant all on e_cart.* to 'suman'; -- Gives all privileges to the new user on the newly created database
+show databases;
+use e_cart; -- now we are in this test database. so now we can execute any query related to this db
